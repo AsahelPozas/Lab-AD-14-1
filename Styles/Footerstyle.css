@@ -36,3 +36,11 @@
 .footer a:hover {
     text-decoration: underline;
 }
+
+.banner .nav-link {
+  color: white;
+}
+
+.banner .nav-link.active {
+  color: black !important;
+}
