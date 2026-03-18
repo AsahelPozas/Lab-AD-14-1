@@ -1,13 +1,7 @@
-<!doctype html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Inicio</title>
-    <link rel="stylesheet" href="../Styles/nav.css" />
     <link rel="stylesheet" href="../Styles/style.css" />
     <link rel="stylesheet" href="../Styles/Footerstyle.css" />
     <link rel="stylesheet" href="../Styles/estilo-pagina-inicio.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   </head>
 
   <body>
@@ -28,99 +22,99 @@
       </nav>
     </header>
 
-    <article>
-      <h1>¿Es el "AI Engineer" el nuevo Fullstack? Cómo empezar hoy mismo.</h1>
+  <div class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-md-10 col-lg-8"> <article>
+          <h1 class="display-4 mb-4">¿Es el "AI Engineer" el nuevo Fullstack? Cómo empezar hoy mismo.</h1>
 
-      <img
-        src="1.png"
-        alt="Diferencias entre perfiles de ingeniería"
-        width="1000"
-      />
+          <img src="1.png" alt="Diferencias entre perfiles de ingeniería" class="img-fluid rounded shadow mb-4" />
 
-      <p>
-        Si sientes que el mundo de la programación se ha vuelto un poco "loco"
-        últimamente, no estás solo. Hace apenas unos años, el camino al éxito
-        estaba claro: aprendías un stack (como MERN), dominabas las bases de
-        datos y desplegabas en la nube. Eras un Fullstack Developer y el mercado
-        te amaba.
-      </p>
+          <p class="lead">
+            Si sientes que el mundo de la programación se ha vuelto un poco "loco"
+            últimamente, no estás solo. Hace apenas unos años, el camino al éxito
+            estaba claro: aprendías un stack (como MERN), dominabas las bases de
+            datos y desplegabas en la nube. Eras un Fullstack Developer y el mercado
+            te amaba.
+          </p>
 
-      <p>
-        Pero las reglas del juego han cambiado. Según el reporte de Stack
-        Overflow (2025), más del 70% de los desarrolladores ya han integrado
-        herramientas de IA en su flujo de trabajo, marcando el inicio de una
-        nueva era: el ascenso del AI Engineer.
-      </p>
+          <p>
+            Pero las reglas del juego han cambiado. Según el reporte de Stack
+            Overflow (2025), más del 70% de los desarrolladores ya han integrado
+            herramientas de IA en su flujo de trabajo, marcando el inicio de una
+            nueva era: el ascenso del AI Engineer.
+          </p>
 
-      <h2>El cambio de paradigma: De "escribir" a "orquestar"</h2>
-      <p>
-        Hasta ahora, nuestra labor era puramente imperativa: le dábamos
-        instrucciones exactas a la computadora. El AI Engineer, en cambio, actúa
-        como un arquitecto que utiliza modelos de lenguaje (LLMs) como piezas de
-        un sistema complejo. Como señala Andriushchenko (2024), el valor del
-        ingeniero moderno no está en "picar código" más rápido que un asistente,
-        sino en saber conectar la inteligencia artificial con datos reales.
-      </p>
+          <h2 class="mt-5">El cambio de paradigma: De "escribir" a "orquestar"</h2>
+          <p>
+            Hasta ahora, nuestra labor era puramente imperativa: le dábamos
+            instrucciones exactas a la computadora. El AI Engineer, en cambio, actúa
+            como un arquitecto que utiliza modelos de lenguaje (LLMs) como piezas de
+            un sistema complejo. Como señala Andriushchenko (2024), el valor del
+            ingeniero moderno no está en "picar código" más rápido que un asistente,
+            sino en saber conectar la inteligencia artificial con datos reales.
+          </p>
 
-      <img src="2.png" alt="Esquema del flujo RAG" width="1000" />
+          <img src="2.png" alt="Esquema del flujo RAG" class="img-fluid rounded border my-4" />
 
-      <h2>El "Starter Kit" del AI Engineer</h2>
-      <p>
-        Si quieres subirte a esta ola, estas son las tres áreas técnicas en las
-        que deberías enfocarte:
-      </p>
+          <h2 class="mt-5">El "Starter Kit" del AI Engineer</h2>
+          <p>
+            Si quieres subirte a esta ola, estas son las tres áreas técnicas en las
+            que deberías enfocarte:
+          </p>
 
-      <h2>1. El concepto de RAG (Retrieval-Augmented Generation)</h2>
-      <p>
-        Este es el término más importante del año. La IA por sí sola suele
-        "alucinar" o desconocer datos privados. La técnica RAG, introducida
-        originalmente por Lewis et al. (2020), permite que el modelo consulte
-        una fuente de datos externa antes de generar una respuesta. Esto
-        garantiza que la IA responda con información precisa, actualizada y
-        propia de tu aplicación.
-      </p>
+          <div class="ps-3 border-start border-primary border-4 my-4">
+            <h3>1. El concepto de RAG (Retrieval-Augmented Generation)</h3>
+            <p>
+              Este es el término más importante del año. La IA por sí sola suele
+              "alucinar" o desconocer datos privados. La técnica RAG, introducida
+              originalmente por Lewis et al. (2020), permite que el modelo consulte
+              una fuente de datos externa antes de generar una respuesta.
+            </p>
+          </div>
 
-      <h2>2. Bases de Datos Vectoriales y Orquestadores</h2>
-      <p>
-        Para que una IA "entienda" el contexto, necesitamos guardar la
-        información en forma de vectores. Herramientas como Pinecone o Supabase
-        son esenciales. Además, para gestionar estas interacciones, dependemos
-        de "orquestadores". Como menciona Chase (2025), herramientas como
-        LangChain son el "pegamento" necesario para pasar de un simple chat a un
-        agente autónomo capaz de ejecutar tareas.
-      </p>
+          <div class="ps-3 border-start border-warning border-4 my-4">
+            <h3>2. Bases de Datos Vectoriales y Orquestadores</h3>
+            <p>
+              Para que una IA "entienda" el contexto, necesitamos guardar la
+              información en forma de vectores. Herramientas como Pinecone o Supabase
+              son esenciales. Además, para gestionar estas interacciones, dependemos
+              de "orquestadores". Como menciona Chase (2025), herramientas como
+              LangChain son el "pegamento" necesario.
+            </p>
+          </div>
 
-      <h2>¿Sigue siendo necesario saber programar?</h2>
-      <p>
-        Rotundamente, sí. Un error común es pensar que la IA reemplazará al
-        programador. La realidad es que la IA genera el "motor", pero tú sigues
-        necesitando construir el coche. El AI Engineer es, en esencia, un
-        ingeniero de software que ha aprendido a tratar a los modelos de IA como
-        una API más, pero con capacidades cognitivas (Swyx, 2023).
-      </p>
+          <div class="ps-3 border-start border-danger border-4 my-4">
+            <h3>3. ¿Sigue siendo necesario saber programar?</h3>
+            <p>
+              Rotundamente, sí. Un error común es pensar que la IA reemplazará al
+              programador. La realidad es que la IA genera el "motor", pero tú sigues
+              necesitando construir el coche. El AI Engineer es, en esencia, un
+              ingeniero de software que ha aprendido a tratar a los modelos de IA como
+              una API más.
+            </p>
+          </div>
 
-      <p>
-        <strong
-          >Conclusión: El futuro es de los "Programadores Aumentados"</strong
-        ><br />
-        No te dejes intimidar. La barrera de entrada nunca ha sido tan baja. Si
-        ya sabes JavaScript o Python, estás a un tutorial de distancia de
-        construir algo asombroso. El mercado busca profesionales que vean en la
-        IA una herramienta para construir lo que antes era imposible.
-      </p>
+          <div class="alert alert-info mt-5" role="alert">
+            <strong>Conclusión: El futuro es de los "Programadores Aumentados"</strong><br />
+            No te dejes intimidar. La barrera de entrada nunca ha sido tan baja. Si
+            ya sabes JavaScript o Python, estás a un tutorial de distancia.
+          </div>
 
-      <section class="referencias">
-        <h2>Referencias Bibliográficas</h2>
-        <p>
-          • Andriushchenko, A. (2024). The rise of the AI Engineer. Medium.<br />
-          • Chase, H. (2025). Orchestrating LLMs. LangChain Blog.<br />
-          • Lewis, P., et al. (2020). Retrieval-Augmented Generation.
-          NeurIPS.<br />
-          • Stack Overflow. (2025). Developer Survey 2025.<br />
-          • Swyx. (2023). The Rise of the AI Engineer. Latent Space.
-        </p>
-      </section>
-    </article>
+          <section class="referencias mt-5 p-4 bg-light rounded">
+            <h2 class="h5">Referencias Bibliográficas</h2>
+            <ul class="list-unstyled mb-0">
+              <li><small>• Andriushchenko, A. (2024). The rise of the AI Engineer. Medium.</small></li>
+              <li><small>• Chase, H. (2025). Orchestrating LLMs. LangChain Blog.</small></li>
+              <li><small>• Lewis, P., et al. (2020). Retrieval-Augmented Generation. NeurIPS.</small></li>
+              <li><small>• Stack Overflow. (2025). Developer Survey 2025.</small></li>
+              <li><small>• Swyx. (2023). The Rise of the AI Engineer. Latent Space.</small></li>
+            </ul>
+          </section>
+        </article>
+
+      </div>
+    </div>
+  </div>
 
     <footer class="footer">
       <h3>Blog de Aprendizaje de Programación</h3>
@@ -140,6 +134,8 @@
       <p>Contacto:</p>
       <a href="mailto:contacto@codelearn.dev"> programacion@javagenlat.dev</a>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
   </body>
 </html>
